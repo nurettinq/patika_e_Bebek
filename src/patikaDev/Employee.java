@@ -36,6 +36,6 @@ public class Employee {
                 "\nBonus : " + bonus() +
                 "\nMaas Artisi : " + raiseSalary()+
                 "\nVergi ve Bonuslar ile birlikte maas : " + employee(name,salary,workHours,hireYear) +
-                "\nToplam Maas : " + (employee(name,salary,workHours,hireYear)+raiseSalary());
+                "\nToplam Maas : " + (employee(name,salary,workHours,hireYear)+raiseSalary());        //toplam maas employee ve raiseSalary metodu kullanılarak hesaplandı
     }
 }
